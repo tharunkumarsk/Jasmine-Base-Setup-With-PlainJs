@@ -1,0 +1,33 @@
+{
+  "name": "Jasmine_Basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-init": "./node_modules/jasmine/bin/jasmine.js init",
+    "test": "./node_modules/jasmine/bin/jasmine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tharunkumark/Jasmine_Basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tharunkumark/Jasmine_Basics/issues"
+  },
+  "homepage": "https://github.com/tharunkumark/Jasmine_Basics#readme",
+  "devDependencies": {
+    "@stryker-mutator/core": "^1.2.0",
+    "@stryker-mutator/html-reporter": "^1.1.1",
+    "@stryker-mutator/javascript-mutator": "^1.1.1",
+    "jasmine": "^3.3.1",
+    "jasmine-core": "^3.4.0",
+    "stryker": "^0.35.1",
+    "stryker-api": "^0.24.1",
+    "stryker-jasmine": "^0.12.1",
+    "stryker-jasmine-runner": "^0.4.1",
+    "stryker-javascript-mutator": "^0.14.1"
+  }
+}

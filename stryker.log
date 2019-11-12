@@ -1,0 +1,96 @@
+12:28:47 (13540) INFO ConfigReader Using stryker.conf.js in the current working directory.
+12:28:47 (13540) DEBUG BroadcastReporter Broadcasting to reporters ["clear-text","progress"]
+12:28:47 (13540) DEBUG ConfigReader Loading config stryker.conf.js
+12:28:47 (13540) DEBUG PluginLoader Loading stryker-* from /Users/Naveen/Documents/GitHub/Jasmine_Basics/node_modules
+12:28:47 (13540) DEBUG PluginLoader Loading plugins stryker-jasmine (matched with expression stryker-*)
+12:28:47 (13540) DEBUG PluginLoader Loading plugins stryker-jasmine-runner (matched with expression stryker-*)
+12:28:47 (13540) DEBUG PluginLoader Loading plugins stryker-javascript-mutator (matched with expression stryker-*)
+12:28:47 (13540) DEBUG PluginLoader Loading plugins stryker-jasmine
+12:28:47 (13540) DEBUG PluginLoader Loading plugins stryker-jasmine-runner
+12:28:47 (13540) DEBUG PluginLoader Loading plugins stryker-javascript-mutator
+12:28:47 (13540) DEBUG PluginLoader Loading plugins /Users/Naveen/Documents/GitHub/Jasmine_Basics/node_modules/stryker/src/reporters/index.js
+12:28:47 (13540) DEBUG PluginLoader Loading plugins /Users/Naveen/Documents/GitHub/Jasmine_Basics/node_modules/stryker/src/mutators/index.js
+12:28:47 (13540) WARN InputFileResolver No files marked to be mutated, Stryker will perform a dry-run without actually mutating anything. You can configure the `mutate` property in your stryker.conf.js file (or use `--mutate` via command line).
+12:28:47 (13540) DEBUG InputFileResolver All input files: [
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/stryker.conf.js",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/stryker.log",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/.gitignore",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/README.md",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/app.js",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/package-lock.json",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/package.json",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/spec/app.spec.js",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/spec/support/jasmine.json"
+]
+12:28:47 (13540) DEBUG InputFileResolver Files to mutate: []
+12:28:47 (13540) DEBUG TestFrameworkOrchestrator Using testFramework jasmine based on `testFramework` setting
+12:28:47 (13540) INFO InitialTestExecutor Starting initial test run. This may take a while.
+12:28:47 (13540) DEBUG Sandbox Creating a sandbox for files in /Users/Naveen/Documents/GitHub/Jasmine_Basics/.stryker-tmp/sandbox7929433
+12:28:47 (13540) DEBUG Sandbox Creating test runner 0
+12:28:47 (13540) DEBUG ChildProcessProxy Starting /Users/Naveen/Documents/GitHub/Jasmine_Basics/node_modules/stryker/src/test-runner/ChildProcessTestRunnerWorker.js in child process 13543
+12:28:47 (13543) DEBUG ChildProcessProxyWorker Changing current working directory for this process to /Users/Naveen/Documents/GitHub/Jasmine_Basics/.stryker-tmp/sandbox7929433
+12:28:47 (13543) DEBUG PluginLoader Loading stryker-* from /Users/Naveen/Documents/GitHub/Jasmine_Basics/node_modules
+12:28:47 (13543) DEBUG PluginLoader Loading plugins stryker-jasmine (matched with expression stryker-*)
+12:28:47 (13543) DEBUG PluginLoader Loading plugins stryker-jasmine-runner (matched with expression stryker-*)
+12:28:47 (13543) DEBUG PluginLoader Loading plugins stryker-javascript-mutator (matched with expression stryker-*)
+12:28:47 (13543) DEBUG PluginLoader Loading plugins stryker-jasmine
+12:28:47 (13543) DEBUG PluginLoader Loading plugins stryker-jasmine-runner
+12:28:47 (13543) DEBUG PluginLoader Loading plugins stryker-javascript-mutator
+12:28:47 (13543) DEBUG PluginLoader Loading plugins /Users/Naveen/Documents/GitHub/Jasmine_Basics/node_modules/stryker/src/reporters/index.js
+12:28:47 (13543) DEBUG PluginLoader Loading plugins /Users/Naveen/Documents/GitHub/Jasmine_Basics/node_modules/stryker/src/mutators/index.js
+12:28:47 (13540) DEBUG InitialTestExecutor Adding test hooks for coverageAnalysis "perTest".
+12:28:47 (13540) DEBUG TimeoutDecorator Starting timeout timer (300000 ms) for a test run
+12:28:47 (13540) TRACE ChildProcessProxy DEPRECATION: Setting throwOnExpectationFailure directly on Env is deprecated, please use the oneFailurePerSpec option in `configure`
+
+12:28:47 (13540) DEBUG ChildProcessProxy Disposing of worker process 13543
+12:28:47 (13540) DEBUG ChildProcessProxy Kill 13543
+12:28:47 (13540) INFO InitialTestExecutor Initial test run succeeded. Ran 2 tests in 0 seconds (net 3 ms, overhead 29 ms).
+12:28:47 (13540) INFO MutatorFacade It's a mutant-free world, nothing to test.
+12:30:46 (13880) INFO ConfigReader Using stryker.conf.js in the current working directory.
+12:30:47 (13880) DEBUG BroadcastReporter Broadcasting to reporters ["clear-text","progress"]
+12:30:46 (13880) DEBUG ConfigReader Loading config stryker.conf.js
+12:30:46 (13880) DEBUG PluginLoader Loading stryker-* from /Users/Naveen/Documents/GitHub/Jasmine_Basics/node_modules
+12:30:46 (13880) DEBUG PluginLoader Loading plugins stryker-jasmine (matched with expression stryker-*)
+12:30:46 (13880) DEBUG PluginLoader Loading plugins stryker-jasmine-runner (matched with expression stryker-*)
+12:30:46 (13880) DEBUG PluginLoader Loading plugins stryker-javascript-mutator (matched with expression stryker-*)
+12:30:46 (13880) DEBUG PluginLoader Loading plugins stryker-jasmine
+12:30:46 (13880) DEBUG PluginLoader Loading plugins stryker-jasmine-runner
+12:30:46 (13880) DEBUG PluginLoader Loading plugins stryker-javascript-mutator
+12:30:46 (13880) DEBUG PluginLoader Loading plugins /Users/Naveen/Documents/GitHub/Jasmine_Basics/node_modules/stryker/src/reporters/index.js
+12:30:46 (13880) DEBUG PluginLoader Loading plugins /Users/Naveen/Documents/GitHub/Jasmine_Basics/node_modules/stryker/src/mutators/index.js
+12:30:47 (13880) WARN InputFileResolver No files marked to be mutated, Stryker will perform a dry-run without actually mutating anything. You can configure the `mutate` property in your stryker.conf.js file (or use `--mutate` via command line).
+12:30:47 (13880) DEBUG InputFileResolver All input files: [
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/stryker.conf.js",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/stryker.log",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/.gitignore",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/README.md",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/app.js",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/package-lock.json",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/package.json",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/spec/app.spec.js",
+  "/Users/Naveen/Documents/GitHub/Jasmine_Basics/spec/support/jasmine.json"
+]
+12:30:47 (13880) DEBUG InputFileResolver Files to mutate: []
+12:30:47 (13880) DEBUG TestFrameworkOrchestrator Using testFramework jasmine based on `testFramework` setting
+12:30:47 (13880) INFO InitialTestExecutor Starting initial test run. This may take a while.
+12:30:47 (13880) DEBUG Sandbox Creating a sandbox for files in /Users/Naveen/Documents/GitHub/Jasmine_Basics/.stryker-tmp/sandbox3707446
+12:30:47 (13880) DEBUG Sandbox Creating test runner 0
+12:30:47 (13880) DEBUG ChildProcessProxy Starting /Users/Naveen/Documents/GitHub/Jasmine_Basics/node_modules/stryker/src/test-runner/ChildProcessTestRunnerWorker.js in child process 13883
+12:30:47 (13880) DEBUG InitialTestExecutor Adding test hooks for coverageAnalysis "perTest".
+12:30:47 (13880) DEBUG TimeoutDecorator Starting timeout timer (300000 ms) for a test run
+12:30:47 (13883) DEBUG ChildProcessProxyWorker Changing current working directory for this process to /Users/Naveen/Documents/GitHub/Jasmine_Basics/.stryker-tmp/sandbox3707446
+12:30:47 (13883) DEBUG PluginLoader Loading stryker-* from /Users/Naveen/Documents/GitHub/Jasmine_Basics/node_modules
+12:30:47 (13883) DEBUG PluginLoader Loading plugins stryker-jasmine (matched with expression stryker-*)
+12:30:47 (13883) DEBUG PluginLoader Loading plugins stryker-jasmine-runner (matched with expression stryker-*)
+12:30:47 (13883) DEBUG PluginLoader Loading plugins stryker-javascript-mutator (matched with expression stryker-*)
+12:30:47 (13883) DEBUG PluginLoader Loading plugins stryker-jasmine
+12:30:47 (13883) DEBUG PluginLoader Loading plugins stryker-jasmine-runner
+12:30:47 (13883) DEBUG PluginLoader Loading plugins stryker-javascript-mutator
+12:30:47 (13883) DEBUG PluginLoader Loading plugins /Users/Naveen/Documents/GitHub/Jasmine_Basics/node_modules/stryker/src/reporters/index.js
+12:30:47 (13883) DEBUG PluginLoader Loading plugins /Users/Naveen/Documents/GitHub/Jasmine_Basics/node_modules/stryker/src/mutators/index.js
+12:30:47 (13880) TRACE ChildProcessProxy DEPRECATION: Setting throwOnExpectationFailure directly on Env is deprecated, please use the oneFailurePerSpec option in `configure`
+
+12:30:47 (13880) DEBUG ChildProcessProxy Disposing of worker process 13883
+12:30:47 (13880) DEBUG ChildProcessProxy Kill 13883
+12:30:47 (13880) INFO InitialTestExecutor Initial test run succeeded. Ran 2 tests in 0 seconds (net 3 ms, overhead 34 ms).
+12:30:47 (13880) INFO MutatorFacade It's a mutant-free world, nothing to test.
